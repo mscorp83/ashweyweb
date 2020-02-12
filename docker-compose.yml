@@ -1,0 +1,10 @@
+version: '3.7'
+services:
+ myapp1:
+  build: .
+  image: ashweywebapp:v1
+  container_name: appeyc12
+  ports:
+   - "8821:80"
+
+
